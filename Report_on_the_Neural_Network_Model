@@ -14,11 +14,20 @@ What variable(s) are the features for your model?
 - All other variables, apart from 'IS_SUCCESSFUL' from application_df were the feature variables of the model. Hence, why 'IS_SUCCESSFUL' was dropped.
 What variable(s) should be removed from the input data because they are neither targets nor features?
 - 'EIN' and 'NAME' columns were both removed from the dataset because they were neither targets nor features.
+
+
+
 Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
+1.How many neurons, layers, and activation functions did you select for your neural network model, and why?
+  - For the initial neural network model I choose to use 10 hidden_node_layers1 and 5 hidden_node_layers2.
+  - I used tanh as an activation function for the first hidden layer, relu as the activation function for the second hidden layer and relu for the output layer.
+  - The reason I choose 10 and 5 respectively for the hidden_node_layers was it was the number used in some class activities. Similarly, using tanh and relu was found to be accurate in other examples as well. 
+
+2. Were you able to achieve the target model performance?
+  - I was not able to achieve the target model performance of 75% but was relatively close at 72.3% tested using 20 epochs. 
+
+3. What steps did you take in your attempts to increase model performance?
 
 
 3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
