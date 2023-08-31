@@ -35,3 +35,7 @@ Compiling, Training, and Evaluating the Model
 
 
 3. Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+  - The overall results of the first model yielded accuracy of 72.3% and the optimized model yielded an improved accuracy of 77.0%. 
+  - A few recommendations be test different activation functions to determine which produces a greater correlation between input and output. A higher correlation between input and output most likely produces higher accuracy.
+  - In this instance, increasing the number of nodes for hidden layer 2 may have been linked to an increase in accuracy.
+  - Additionally, (slightly) increasing the number of epochs led to increased accuracy as well. 
