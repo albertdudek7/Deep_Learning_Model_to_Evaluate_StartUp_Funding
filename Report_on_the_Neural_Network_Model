@@ -30,7 +30,7 @@ Compiling, Training, and Evaluating the Model
 3. What steps did you take in your attempts to increase model performance?
   - I made significant changes to increase model performance. To begin with, I added an additional third hidden layer to the model. 
   - I kept the number of nodes for the first hidden layer the same, but increased the nodes for the second hidden layer to 8 and set the number of nodes for the newly added third layer to 6. 
-  - I decided to use a relu activation function instaed of tanh for the first hidden layer, and sigmoid as the activation function for the second, third and output layer. 
+  - I decided to use a relu activation function instaed of tanh for the first hidden layer, and sigmoid as the activation function for the second, third and output layers. 
   - Lastly, I slightly increased the number of epochs to 25 from 20. This was signicant and interestingly using a higher number of epochs (ie: 40) led to decreased accuracy. 
 
 
